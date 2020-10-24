@@ -193,7 +193,7 @@ def merge1(arr, low, high):
         merge1(arr, low, mid)
         merge1(arr, mid + 1, high)
         arr = merge_sort(arr, low, mid, high)
-        return arr
+	return arr
 
 
 print(merge1([1, 3, 5, 7, 9, 2, 4, 6], 0, 7))

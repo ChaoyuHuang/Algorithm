@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding: utf-8 -*-
 def maopao(arr):
     for i in range(len(arr) - 1):
         for j in range(len(arr) - i - 1):
@@ -131,3 +131,4 @@ def merge_sort(arr, low, mid, high):
 
 
 print(merge_sort([1, 3, 5, 7, 9, 2, 4, 6, 8, 10], 0, 4, 9))
+
