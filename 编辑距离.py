@@ -16,3 +16,6 @@ for i in range(1, n):
         else:
             dq[i][j] = min(dq[i - 1][j - 1], dq[i][j - 1], dq[i - 1][j]) + 1
 print(dq[-1][-1])
+
+# for i in range(7):
+# 	print(i)
